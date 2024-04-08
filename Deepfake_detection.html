@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deepfake_detection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="deep icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navicon">
+         <div class="nav-logo">
+           <!-- <img src="deep icon" alt="..." style="height: 20px; width: 40px;" > -->
+       </div>
+        </div>
+     <div class="nav 1" > <a href="menu" style="font-size: 39px;"><i class="fa-solid fa-bars"></i></a> </div>
+     <div class="nav-sub" ><a href="Home">Home</a></div>
+     <div class="nav-sub" ><a href="About">About Us</a></div>
+     <div class="nav-sub" >  <a href="Log in"> <i class="fa-solid fa-user"></i>  Log in</a> </div>
+   </div>
+    </header>
+    <!-- hero content section -->
+    <div class="hero">
+      <div class="hero-content"></div>
+    </div>
+    <!-- choose file section -->
+    <div class="file">
+      <p>Deepfake_detection. <a href=".">Upload your file?</a></p>
+    </div>
+    <div class="nand">
+      <div class="nandfile" style="background-image: url('https://th.bing.com/th?id=OIP.qFb_aaZXbGljj8uEA3nlVQHaEA&w=340&h=183&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'); background-size: cover;">
+        <div class="nandsection">
+          <h3 style="font-size: 22px; color: rgba(0, 0, 0, 0.765); font-family: Arial, Helvetica, sans-serif; text-align: center; margin-top: 20px;">Upload your image</h3>
+          <div class="nandimg" style="background-image: url('https://www.bing.com/th?id=OIP.xeIKC7x61yDTcQz23mqy1AHaHa&pid=3.1&cb=&w=300&h=300&p=0'); margin-top: 25px; margin-left: 35px;"></div>
+          <div class="chose">
+            <input type="file" placeholder="choose your file" style="font-size: 20px; color: black; text-align: center; "></div>
+          <a href="your file is uploaded" ><button style="height: 40px; width: 90px; background-color: orange; color: black; font-size: 20px; margin-left: 50px; border-radius: 16px; margin-bottom: 40px;" >Submit</button></a>
+        </div>
+        <div class="nandsection">
+          <h3 style="font-size: 22px; color: rgba(0, 0, 0, 0.765); font-family: Arial, Helvetica, sans-serif; text-align: center; margin-top: 20px;">Upload your video</h3>
+          <div class="nandimg" style="background-image: url('https://th.bing.com/th?id=OIP.5IN_8c-nbg_o8eRCgEupdAHaE4&w=307&h=203&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'); margin-top: 25px; margin-left: 35px;"></div>
+          <div class="chose">
+            <input type="file" placeholder="choose your file" style="font-size: 20px; color: black; text-align: center; "></div>
+          <a href="your file is uploaded"><button style="height: 40px; width: 90px; background-color: orange; color: black; font-size: 20px; margin-left: 50px; border-radius: 16px;" >Submit</button></a>
+        </div>
+        <div class="nandsection">
+          <h3 style="font-size: 22px; color: rgba(0, 0, 0, 0.765); font-family: Arial, Helvetica, sans-serif; text-align: center; margin-top: 20px;">Upload your Audio</h3>
+          <div class="nandimg" style="background-image: url('https://th.bing.com/th/id/OIP.AgqDIgXk4sgZyh1W-6XWewHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7'); margin-top: 25px; margin-left: 35px;"></div>
+          <div class="chose">
+            <input type="file" placeholder="choose your file" style="font-size: 20px; color: black; text-align: center; "></div>
+          <a href="your file is uploaded"><button style="height: 40px; width: 90px; background-color: orange; color: black; font-size: 20px; margin-left: 50px; border-radius: 16px;" >Submit</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- restult section -->
+    <div class="result">
+      <div class="resultfile">
+        <div class="resultfilebar-1" style="background-image: url('https://th.bing.com/th?id=OIP.BTmUYsjO2gK48EsideQV-wHaEd&w=322&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');"></div>
+        <div class="resultfilebar-2" style="background-image: url('https://th.bing.com/th?id=OIP.UpmO0fzSJ-wBj9s3zKvSywHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'); background-size: cover; height: 440px; width: 1100px;">
+          <div class="resultitem">
+            <label for="accuracy">Acurracy:-</label>
+          <input type="number" placeholder="file accuracy"><br>
+          <label for="Confidence-level">Confidence Level:-</label>
+          <input type="number" placeholder="Insert Confidence Level%"><br>
+          <label for="Classification">Classification:-</label>
+          <input type="text" placeholder="Authentic / Suspicious"><br>
+          <label for="result">Result:-</label>
+          <input>
+          </div>
+        </div>
+       </div>
+    </div>
+    <!-- creator info -->
+    <div class="creator">
+      <div class="creatordetails">
+        <div class="creatorimg" style="background-image: url('https://media.licdn.com/dms/image/D5603AQGoz0_7HMJfaQ/profile-displayphoto-shrink_100_100/0/1703604215141?e=1718236800&v=beta&t=5yorkIEfdSMJ9Nwfn6RJ3kTaz_wLIFATBoNUjNsaFzw');"> <a href="nand">Nand kumar sahu</a></div>
+        <div class="creartointro"><p>"<b>Nand Kumar Sahu</b>, an adept web developer, spearheads the creation of a cutting-edge website for deep fake detection.<br>
+          His meticulous attention to detail ensures the website's functionality and user interface are seamless and intuitive.<br>
+          Employing advanced algorithms, Nand Kumar enhances the platform's ability to identify and mitigate deep fake content effectively.<br>
+          Collaborating with cybersecurity experts, he continuously refines the website's capabilities to stay ahead of emerging threats.<br>
+          Nand Kumar's dedication to combating digital manipulation underscores his invaluable contribution to online security."</p></div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+     <div class="footer-panel"> <p>"Welcome to our cutting-edge deepfake detection platform powered by advanced AI and ML algorithms.<br> Safeguarding authenticity and trust, we employ state-of-the-art technology to identify and mitigate the risks of manipulated media.<br> By using our service, you agree to comply with our terms and conditions, ensuring responsible use and ethical standards in the realm of digital content creation.<br> For more information, you can visit  my github Repo."</p></div>
+    </div>
+    <div class="panel2">
+      <div class="panel2-sub"><p>"By accessing our Deepfake Detection website, you agree to comply with Indian laws and regulations.<br> Our AI/ML-based service is provided for informational purposes only, and we hold no liability for its accuracy or misuse.<br> Use of the service constitutes acceptance of our terms and conditions."</p></div>
+    </div>
+  </body>
+</html>
