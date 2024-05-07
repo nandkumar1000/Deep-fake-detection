@@ -9,41 +9,24 @@ Deep fake detection TOOL (WEBSITE)
 ##  ✅ **Requirements:** 📝
 
 1. HTML. 
-   
-   ![HTML](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png)
-   
-2. CSS. 
-   
-   ![CSS](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png)
-   
+2. CSS.  
 3. JS. 
-   
-   ![JavaScript](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582746_960_720.png)
-   
 4. FONT AWESOME. 
-   
-   ![Font Awesome](https://fontawesome.com/images/open-graph.png)
-
 These are the essential components needed for the project. 🛠️
 
 
 
 ## 🌐 **ABSTRACT** 🖥️
 The design of this website is done with JS, CSS, and HTML. 
-
-![HTML](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png)
 I utilize HTML for layout and frame; I make use of tags, spans, and many other properties. 
 With the use of features like div, text properties, flexbox, color, gradient, transform, skew, translate, and many more, CSS is used to customize the HTML layout. 
-![CSS](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png)
 This website's backend uses JavaScript to function. 
-![JavaScript](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582746_960_720.png)
 
 ** note. "Some of the files like js, Python, database, and ML are not uploaded." .
 
 ##  🌟 **Font Awesome** 🎨
 
 Font Awesome is a popular icon set and toolkit for web development. 
-![Font Awesome](https://fontawesome.com/images/open-graph.png)
 It offers a vast library of scalable vector icons that can be easily customized. 
 Developers use FontAwesome to enhance the visual appeal and usability of websites and applications. 
 The icons are easily implemented using simple HTML and CSS code. 
