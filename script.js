@@ -1,5 +1,5 @@
 
-window.onload = function() {
+// window.onload = function() {
   gsap.registerPlugin(ScrollTrigger);
 
   // Animation for .nav-sub elements
@@ -93,4 +93,4 @@ window.onload = function() {
       toggleActions: "play none none none"
     }
   });
-};
+// };
